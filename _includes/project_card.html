@@ -1,0 +1,10 @@
+<div class="card mb-4">
+    <div class="card-body">
+        <h5 class="card-title">{{ project.title }}</h5>
+        <p class="card-text">{{ project.description }}</p>
+        <a href="{{ project.link }}" class="btn btn-primary" target="_blank">View Project</a>
+    </div>
+    <div class="card-footer">
+        <small class="text-muted">Tags: {% for tag in project.tags %} <span class="badge bg-secondary">{{ tag }}</span> {% endfor %}</small>
+    </div>
+</div>
