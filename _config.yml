@@ -55,6 +55,6 @@ plugins:
 #   - vendor/ruby/
 
 collections:
-  projects:
+  projects_list:
     output: true
     # permalink: /projects/:title/
